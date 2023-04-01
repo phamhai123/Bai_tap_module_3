@@ -1,0 +1,98 @@
+body{
+    font-family: Arial;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.logo {
+    font-size: 20px;
+    color: hotpink;
+    text-shadow: 3px 5px 3px pink;
+    padding: 0;
+    margin: 0;
+}
+#menu{
+    height: 30px;
+    padding: 5px;
+    margin:0;
+    background-color: lightgray;
+    border: 1px solid #CDCDCD;
+    display: flex;
+    justify-content: center;
+}
+
+#menu ul, #menu li{
+    padding:0;
+    margin:0;
+}
+
+#menu li{
+    position: relative;
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding-left: 10px ;
+    padding-right: 10px;
+    
+}
+#menu .item{
+    border-left: 2px solid black;
+}
+#menu li a{
+    height: 30px;
+    display: block;
+    text-decoration:none;
+    text-align: center;
+    line-height: 30px;
+    color: black;
+    font-weight: bold;
+}
+
+#menu ul ul li a{
+    width: 200px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+#menu li a:hover{
+    color: whitesmoke;
+}
+.container {
+    display: flex;
+    margin-top: 15px;
+}
+.video-left {
+    width: 35%;
+    background-color: lightgray;
+    scroll-behavior: auto;
+}
+.video-right{
+    width: 65%;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+}
+.video-item{
+    padding-inline-start: 20%;
+}
+.video-item img {
+    width: 100%;
+}
+.video-display{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.view {
+    font-size: 15px;
+    font-weight: bold;
+    color: gray;
+}
+.content {
+    font-weight: bold;
+    color: gray;
+}
+.footer {
+    text-align: center;
+    background-color: lightgray;
+    margin-top: 10px;
+    padding: 20px;
+}

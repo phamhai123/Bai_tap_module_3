@@ -1,0 +1,103 @@
+body{
+    font-family: Arial;
+}
+
+#menu{
+    height: 30px;
+    padding:0;
+    margin:0;
+    background-color: #000000;
+    border: 1px solid #CDCDCD;
+    display: flex;
+    justify-content: space-between;
+}
+
+#menu ul, #menu li{
+    padding:0;
+    margin:0;
+}
+
+#menu li{
+    position: relative;
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding:0;
+}
+
+#menu li a{
+    width:100px;
+    height: 30px;
+    display: block;
+    text-decoration:none;
+    text-align: center;
+    line-height: 30px;
+    background-color: black;
+    color: white;
+}
+
+#menu ul ul li a{
+    width: 200px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+#menu li a:hover{
+    background-color: gray;
+}
+
+/* #menu ul ul{
+    position: absolute;
+    top: 30px;
+    left: 15px;
+    visibility: hidden;
+}
+
+#menu ul li:hover ul{
+    visibility: visible;
+} */
+.container {
+    display: flex;
+}
+.menu-left{
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+    background-color: Silver;
+}
+
+.menu-left a {
+    text-decoration:none;
+    color: blue;
+}
+.menu-left a:hover{
+    color: aqua;
+} 
+.menu-center{
+    margin: 0 auto;
+    padding: 10px;
+    height: 500px;
+}
+.menu-right{
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+      background-color: Silver;
+}
+.ADS{
+    margin: 20px;
+    padding: 20px;
+    width: auto;
+    border: 2px solid grey;
+    background-color: Silver;
+}
+.ADS:hover {
+    background-color: ghostwhite;
+    box-shadow: 2px 3px rgba(128, 128, 128, 0.719);
+}
+.footer{
+    text-align: center;
+    background-color: #000000;
+    color: white;
+    padding: 20px;
+}
