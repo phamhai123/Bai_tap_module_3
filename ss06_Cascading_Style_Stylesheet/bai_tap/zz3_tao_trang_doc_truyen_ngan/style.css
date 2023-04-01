@@ -1,0 +1,141 @@
+body{
+    font-family: Arial;
+}
+.logo {
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    color: darkolivegreen;
+    font-weight: lighter;
+    text-shadow: 5px 10px 5px rgba(107,142,35);
+    margin-bottom:-20px ;
+}
+/* menu ngang */
+#menu{
+    height: 30px;
+    padding: 0;
+    margin:0;
+    background-color: darkslategray;
+    display: flex;
+    justify-content: space-between;
+}
+#menu .item{
+    border-left: 2px solid black;
+}
+#menu ul, #menu li{
+    padding:0;
+    margin:0;
+}
+
+#menu li{
+    position: relative;
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding:0;
+}
+
+#menu li a{
+    height: 30px;
+    display: block;
+    text-decoration:none;
+    text-align: center;
+    line-height: 30px;
+    background-color: darkslategray;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+#menu ul ul li a{
+    width: 200px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+#menu li a:hover{
+    background-color: white;
+    color: black;
+}
+/* menu ngang */
+/* menu dọc */
+/* body{
+    font-family: Arial;
+} */
+#menu-column, #menu-column ul, #menu-column li{
+    padding:0;
+    margin:0;
+}
+
+#menu-column li{
+    list-style: none;
+    position: relative;
+    width:90%;
+    height: 30px;
+    padding: 2 20px;
+    background-color: white;
+    line-height: 30px;
+    cursor:pointer;
+    border-bottom: 1px solid grey;
+    margin: 5%;
+}
+
+#menu-column li a{
+    text-decoration:none;
+    color: black;
+    padding: 20px;
+    font-weight: bolder;
+   
+}
+
+#menu-column li:hover{
+    background-color: dodgerblue;
+}
+#menu-column li a:hover{
+    color: white;
+}
+
+/* #menu-column ul ul{
+    position: absolute;
+    top:0;
+    left:140px;
+    visibility:hidden;
+}
+
+#menu-column ul li:hover ul{
+    visibility:visible;
+} */
+/* menu dọc */
+.container {
+    display: flex;
+    background-color: lightgray;
+    padding: 10px;
+}
+.container .main-content .box{
+    display: flex;
+    padding: 20px;
+    border-bottom: 2px solid darkgray;
+    margin-left: 20px;
+    margin-right: 20px ;
+}
+.container .main-content{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+ 
+}
+.image{
+    padding-right: 20px ;
+}
+.container .menu-left{
+    width: 25%;
+    background-color: white;
+    margin-left: 20px ;
+}
+.main{
+    color: dodgerblue;
+}
+.main:hover{
+    text-decoration: underline;
+}
