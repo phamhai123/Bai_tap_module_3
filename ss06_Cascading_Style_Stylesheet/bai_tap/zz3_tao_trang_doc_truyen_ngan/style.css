@@ -139,3 +139,11 @@ body{
 .main:hover{
     text-decoration: underline;
 }
+.footer{
+    background-color: #222222;
+    font-weight: bold;
+    color: whitesmoke;
+    text-align: center;
+    padding: 10px;
+    border-top: 10px solid dodgerblue;
+}
