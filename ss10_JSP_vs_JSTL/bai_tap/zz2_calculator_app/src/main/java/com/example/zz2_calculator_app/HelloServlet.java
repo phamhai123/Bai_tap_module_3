@@ -1,4 +1,4 @@
-package com.example.calculator;
+package com.example.zz2_calculator_app;
 
 import java.io.*;
 import javax.servlet.http.*;
