@@ -13,11 +13,11 @@
 </head>
 <body>
     <div class="container">
-<%--        <p>--%>
-<%--            <c:if test="${requestScope['message']!=null}">--%>
-<%--                <span class="message">${requestScope['message']}</span>--%>
-<%--            </c:if>--%>
-<%--        </p>--%>
+        <p>
+            <c:if test="${requestScope['message']!=null}">
+                <span class="message">${requestScope['message']}</span>
+            </c:if>
+        </p>
         <h1>Create Product</h1>
         <p>
 

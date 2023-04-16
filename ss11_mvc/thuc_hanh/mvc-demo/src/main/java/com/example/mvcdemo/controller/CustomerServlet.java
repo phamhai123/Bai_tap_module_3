@@ -10,7 +10,7 @@ import javax.servlet.annotation.*;
 import java.io.IOException;
 import java.util.List;
 
-@WebServlet(name = "CustomerServlet", value = "/customers")
+@WebServlet(name = "CustomerServlet", value = {"/customers",""})
 public class CustomerServlet extends HttpServlet {
     private CustomerService customerService = new CustomerServiceImp();
     @Override
